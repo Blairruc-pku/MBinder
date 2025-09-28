@@ -2,7 +2,7 @@
 Repo of the VLDB 2026 submission paper: Binding Pre-trained Models to Your Data! Efficient Model Selection and Adaptation  for Online In-DBMS Machine Learning. 
 ## Introduction
 MBinder is a solution to leverage pre-trained models within the DBMS in the UDF manner. It achieves high speed and accuracy compared to other in-DBMS ML methods through two major components: Model selection and model synchronization. Model selection conducts a two-phased method to select an appropriate model for the given task, while the model synchronization method updates the model with increamental data to maintain model freshness. \
-![image](./MBinder/figure/Intro.png)
+![image](./MBinder/figure/workflow.png)
 ## Performance
 The following table demonstrates the overall performance of MBinders. MBinder saves large amount of time while achieving excellent performance on accuracy. \
 ![image](./MBinder/figure/overall.png)
